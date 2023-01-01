@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录</title>
+    <link rel="stylesheet" href="css/Login.css">
+</head>
+<body>
+<form action="/LMB/loginServlet" method="post" id="form">
+    <div class="login-box">
+        <h4>登录</h4>
+        <div class="input-box">
+            <div class="group">
+                <span class="ion"><img src="images/user.png" style="width: 25px;height: 25px;"></span>
+                <input type="text" name="username" id="username" placeholder="用户名" class="input">
+            </div>
+            <div class="group">
+                <span class="ion"><img src="images/pwd.png" style="width: 25px;height: 25px;"></span>
+                <input type="password" name="password" id="password" placeholder="密码" class="input">
+            </div>
+            <div class="group">
+                <p class="p" id="login_sucss">&nbsp;</p>
+            </div>
+            <div>
+                <input class="button" type="submit" id="login" value="登录">
+                <div class="signup">
+                    还没有账户？<a href="Register.html">注册</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+
+</body>
+<!--<script src="js/Login.js"></script>-->
+</html>
