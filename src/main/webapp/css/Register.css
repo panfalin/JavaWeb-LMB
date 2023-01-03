@@ -51,6 +51,10 @@ body{
     margin-top: 10px;
     justify-content: center;
 }
+/*input:invalid{*/
+/*     border:2px solid red;*/
+/*     animation: shake 800ms ease-in-out;*/
+/*}*/
 .shake {
      animation: shake 800ms ease-in-out;
  }
@@ -77,6 +81,7 @@ body{
 }
 .color-error{
     border: 2px solid #ff0000;
+    animation: shake 800ms ease-in-out;
  }
 .color-success{
     outline: none;

@@ -60,9 +60,9 @@
         <groupId>org.apache.tomcat.maven</groupId>
         <artifactId>tomcat7-maven-plugin</artifactId>
         <version>2.2</version>
-        <!-- <configuration>
-             <path>/xxx</path>
-         </configuration>-->
+        <configuration>
+             <path>/JavaWeb-LMB</path>
+         </configuration>
       </plugin>
     </plugins>
   </build>
